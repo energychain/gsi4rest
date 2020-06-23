@@ -1,6 +1,6 @@
 {
   "name": "gsi4rest",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "REST API Server for GreenPowerIndex (GrünstromIndex) - Available at rest.corrently.io ",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,10 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/energychain/gsi4rest.git"
+  },
+  "bin": {
+    "gsirest": "./index.js",
+    "corrently.rest": "./index.js"
   },
   "keywords": [
     "gsi",
