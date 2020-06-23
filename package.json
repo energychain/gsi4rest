@@ -1,0 +1,33 @@
+{
+  "name": "gsi4rest",
+  "version": "1.0.0",
+  "description": "REST API Server for GreenPowerIndex (GrünstromIndex) - Available at rest.corrently.io ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/energychain/gsi4rest.git"
+  },
+  "keywords": [
+    "gsi",
+    "corrently",
+    "gruenstromindex",
+    "rest",
+    "api"
+  ],
+  "author": "STROMDAO GmbH <kontakt@stromdao.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/energychain/gsi4rest/issues"
+  },
+  "homepage": "https://github.com/energychain/gsi4rest#readme",
+  "dependencies": {
+    "@hapi/hapi": "^19.1.1",
+    "axios": "^0.19.2",
+    "hapi": "^18.1.0",
+    "moment": "^2.27.0",
+    "node-persist": "^3.1.0"
+  }
+}
