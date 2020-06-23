@@ -105,7 +105,6 @@ const init = async () => {
                }
               }
             }
-        }
     });
 
     await server.start();
